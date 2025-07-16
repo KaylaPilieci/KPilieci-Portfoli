@@ -1,90 +1,43 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <!-- <body style="background-color:lightblue"> -->
-  <body style="background-image:url(https://images.template.net/115475/free-pastel-blue-grid-background-qajj5.jpeg); background-repeat: no-repeat; background-size: cover;">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary"  style="background-color:white !important;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">KAYLA PILIECI</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <ul class="navbar-nav">
-            <li class="nav-item"></li>
-            <a class="nav-link active" aria-current="page"href="#">Home</a> 
-            
-            <li class="nav-item">
-            <a class="nav-link" href="#">About</a></li>
-              
-            <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a></li>
-              
-            <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a></li>
-            <li class="nav-item"> 
-            <a class="nav-link" href="/plantid.html">Plant.ID </a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-<!-- About section -->
-<div class="container pt-4">
-  <div class="row">
-    <div class="col-6 text-center offset-3">
-    <h1>About</h1>
-      <img src="IMG_5420.jpeg" height="244" width="236" class="rounded-circle">
-      <p class="pt-4"> Hello! I'm Kayla Pilieci. I'm mixed race. Coming from my dad's side, im American and Italian. From my mom's side, im Bajan (from 
- a small island in the carribean called Barbados). I like to sing, dance and act on stage. I've been a dancer since the start of my life. I don't have a favorite color but I like all colors. I like playing Badminton or tennis. I play video games and listen to music. I'm a very creative person when it comes to brainstorming an idea. I like to write fictional  and horror stories as a hobby. I enjoy watching Anime and reading Manga. And I enjoy watching horror movies.
-</p>
-    </div>
-  </div> 
-</div>
-<!-- Skill section -->
-<div class="container">
-  <div class="row">
-    <div class="col text-center">
-      <h1>Skills</h1>
-      <ul class="list-inline">
-        <li class="list-inline-item" style="border-style:solid !important; border-width:2px !important; border-color:black !important; border-radius:5px !important; padding:5px !important; margin:5px !important;">HTML</li>
-        <li class="list-inline-item" style="border-style:solid !important; border-width:2px !important; border-color:black !important; border-radius:5px !important; padding:5px !important; margin:5px !important;">CSS</li>
-        <li class="list-inline-item" style="border-style:solid !important; border-width:2px !important; border-color:black !important; border-radius:5px !important; padding:5px !important; margin:5px !important;">Javascript</li>
-      </uL>
-    </div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html>
 
-<!-- Contact section -->
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h1>Contact</h1>
-        <button type="button" class="btn btn-dark">
-        <a href="mailto:kaykay123tyu@Gmail.com" style="color:white;">Email</a>
-        </button>
-</button>
-        </div>
-      </div>
-    </div>
-<!--Age Verifcation -->
-<div class="container">
- <div class="row pt-5 text-center">
-  <div class="col">
-    <h1 style="color: black;">App Verification</h1>
-    <button onclick="verifyAge()" type="button" class="btn btn-dark">Verify my age</button>
-  </div>
- </div>
-</div>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+
+<body>
+
+    <section id="home" class="hero">
+<img src="3951-nagi-manga.png" alt="My Profile Picture"/>
+<h2>Hi, I am <span class="accent">Kayla Pilieci</span> </h2>
+<p>I'm a highschool student learning web development!</p>
+</section> 
+
+<section id="about" class="section"> 
+    <h2>About me</h2>
+    <p>I like to wrtie stories and brainstorm creative ideas. I wanna start a small bussiness to help me get more money in life. I have a pet cat. I like watching anime and reading manga. I also like to play games while listening to music.</p>
+</section>
+
+<section id="skills" class="section">
+    <h2>My skills</h2>
+    <div class="grid">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+    </div>
+</section>
+
+<section id="Projects" class="section">
+    <div class="grid">
+        <h2>Projects</h2>
+    </div>    
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-   
-    <script src="/script.js" crossorigin="anonymous">
-    </script>
-  </body>
+    
+
+</section>
+
+</body>
+
+
 </html>
